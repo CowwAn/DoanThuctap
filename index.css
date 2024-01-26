@@ -334,3 +334,11 @@ h3{
 }
 
 /* BOTTOM */
+
+.container1 img {
+    transition: transform 1.2s ease-in-out;
+}
+
+.container1 img.zoom-in {
+    transform: scale(1.2);
+}

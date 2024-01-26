@@ -148,10 +148,14 @@ li {
 
 .container-left-small{
     width: 20%;
+    cursor: pointer;
 }
 
 .container-left-big{
     width: 80%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .container-left-small img{
@@ -160,8 +164,13 @@ li {
 
 .container-left-big img{
     width: 100%;
-
+    display: block;
+    transition: transform 0.3s ease-in-out;
     padding-left: 10px;
+}
+
+.container-left-big img.zoomed{
+    transform: scale(1.5); /* Adjust the scale factor as needed */
 }
 
 .click{
