@@ -325,3 +325,19 @@ h3{
     background-color: #DCD7C9;
     padding: 10px;
 }
+
+.dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex; /* Sử dụng flexbox để căn chỉnh phần tử con */
+    align-items: center; /* Căn chính nội dung và biểu tượng theo chiều dọc */
+}
+
+.dropdown-content2 a i {
+    margin-left: 8px; /* Tạo khoảng cách giữa nội dung và biểu tượng theo chiều ngang */
+}
+
+.dropdown-content2 a:hover {
+    background-color: #f1f1f1;
+}
